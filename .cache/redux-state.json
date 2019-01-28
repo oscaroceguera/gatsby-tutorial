@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "644006b276114a22f4da56a3f542bd68",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -231,6 +222,96 @@
         "owner": "internal-data-bridge"
       }
     },
+    "6514de8f-f793-55c5-9ac3-e91649a74cbc": {
+      "resolve": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-manifest",
+      "id": "6514de8f-f793-55c5-9ac3-e91649a74cbc",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "GatsbyJS",
+        "short_name": "GatsbyJS",
+        "start_url": "/",
+        "background_color": "#6b37bf",
+        "theme_color": "#6b37bf",
+        "display": "standalone"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ca037b4b5684bba1e9dd28293e611939",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "ea0fa0e3-298b-54a6-a78b-243a67139d7c": {
       "resolve": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-source-filesystem",
       "id": "ea0fa0e3-298b-54a6-a78b-243a67139d7c",
@@ -354,6 +435,99 @@
       "children": [],
       "internal": {
         "contentDigest": "8b056ed21e95b4869b75b963f8c10383",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.21",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.21",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=2.0.53"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4bc23d2376a6b06e2ad4aa9cb16a5aa1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -580,6 +754,91 @@
         "owner": "internal-data-bridge"
       }
     },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5875510441a3a4faab3c52ddb8eb5922",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
       "resolve": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-typography",
       "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
@@ -668,7 +927,7 @@
       "resolve": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "2effda1c2c3ed36c837d6d3232320157",
+      "version": "8062c66388f679aefb43c4426e4b725e",
       "pluginOptions": {
         "plugins": []
       },
@@ -698,6 +957,18 @@
             "version": "^4.0.1"
           },
           {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.13"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.21"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.5"
+          },
+          {
             "name": "gatsby-plugin-typography",
             "version": "^2.2.5"
           },
@@ -716,6 +987,10 @@
           {
             "name": "react-dom",
             "version": "^16.5.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
           },
           {
             "name": "react-typography",
@@ -738,7 +1013,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "255405a28311181bf7a03d83b9f04d3c",
+        "contentDigest": "f78db028cb1df4084b5c4a4f3b796606",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -850,16 +1125,14 @@
       "siteMetadata": {
         "title": "TAbout pandas eating lots"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-28T07:14:51.038Z",
+      "buildTime": "2019-01-28T07:28:36.779Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1d5bdef94c85a2a4cf96b0ad51639ffa",
+        "contentDigest": "5be5ac6a6e64d05feed4de475f86f4a3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -869,7 +1142,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ab24b54de9bcb7864dcc7a807d130b31",
+        "contentDigest": "900bb056603b41a12374495ebde12c9b",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -881,7 +1154,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-01-28T07:11:51.582Z",
-      "accessTime": "2019-01-28T07:14:55.848Z",
+      "accessTime": "2019-01-28T07:28:41.422Z",
       "changeTime": "2019-01-28T07:11:51.582Z",
       "birthTime": "2019-01-26T07:40:09.676Z",
       "root": "/",
@@ -899,11 +1172,11 @@
       "blksize": 4096,
       "ino": 15721297,
       "blocks": 0,
-      "atimeMs": 1548659695848.4463,
+      "atimeMs": 1548660521421.8242,
       "mtimeMs": 1548659511581.925,
       "ctimeMs": 1548659511581.925,
       "birthtimeMs": 1548488409675.6155,
-      "atime": "2019-01-28T07:14:55.848Z",
+      "atime": "2019-01-28T07:28:41.422Z",
       "mtime": "2019-01-28T07:11:51.582Z",
       "ctime": "2019-01-28T07:11:51.582Z",
       "birthtime": "2019-01-26T07:40:09.676Z"
@@ -913,7 +1186,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "f5ad6b2b8c3087a0daaef8715b238164",
+        "contentDigest": "100e0414b2443423b35b6a9c7225dd3a",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -925,7 +1198,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-26T08:23:14.167Z",
-      "accessTime": "2019-01-28T07:14:55.852Z",
+      "accessTime": "2019-01-28T07:28:41.426Z",
       "changeTime": "2019-01-26T08:23:14.167Z",
       "birthTime": "2019-01-26T07:50:02.889Z",
       "root": "/",
@@ -943,11 +1216,11 @@
       "blksize": 4096,
       "ino": 15769232,
       "blocks": 0,
-      "atimeMs": 1548659695851.597,
+      "atimeMs": 1548660521425.733,
       "mtimeMs": 1548490994167.4924,
       "ctimeMs": 1548490994167.4924,
       "birthtimeMs": 1548489002888.9844,
-      "atime": "2019-01-28T07:14:55.852Z",
+      "atime": "2019-01-28T07:28:41.426Z",
       "mtime": "2019-01-26T08:23:14.167Z",
       "ctime": "2019-01-26T08:23:14.167Z",
       "birthtime": "2019-01-26T07:50:02.889Z"
@@ -957,7 +1230,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "bf2e64620ff76a5103f6a35a85914f67",
+        "contentDigest": "1c211cf52b56fd4d4526862f03df85c5",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -969,7 +1242,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2019-01-28T07:04:43.975Z",
-      "accessTime": "2019-01-28T07:14:55.852Z",
+      "accessTime": "2019-01-28T07:28:41.426Z",
       "changeTime": "2019-01-28T07:04:43.975Z",
       "birthTime": "2019-01-26T07:40:09.676Z",
       "root": "/",
@@ -987,11 +1260,11 @@
       "blksize": 4096,
       "ino": 15721300,
       "blocks": 0,
-      "atimeMs": 1548659695851.613,
+      "atimeMs": 1548660521425.6968,
       "mtimeMs": 1548659083974.573,
       "ctimeMs": 1548659083974.573,
       "birthtimeMs": 1548488409675.6646,
-      "atime": "2019-01-28T07:14:55.852Z",
+      "atime": "2019-01-28T07:28:41.426Z",
       "mtime": "2019-01-28T07:04:43.975Z",
       "ctime": "2019-01-28T07:04:43.975Z",
       "birthtime": "2019-01-26T07:40:09.676Z"
@@ -1001,7 +1274,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "1cba5c20887fb73ed64f95f10dfd3479",
+        "contentDigest": "c91c186b70836b52c23bf382dfb2f778",
         "type": "Directory",
         "description": "Directory \"src/styles\"",
         "owner": "gatsby-source-filesystem"
@@ -1013,7 +1286,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-01-26T07:54:54.844Z",
-      "accessTime": "2019-01-28T07:14:55.852Z",
+      "accessTime": "2019-01-28T07:28:41.426Z",
       "changeTime": "2019-01-26T07:54:54.844Z",
       "birthTime": "2019-01-26T07:54:49.310Z",
       "root": "/",
@@ -1031,11 +1304,11 @@
       "blksize": 4096,
       "ino": 15769592,
       "blocks": 0,
-      "atimeMs": 1548659695851.6343,
+      "atimeMs": 1548660521425.7744,
       "mtimeMs": 1548489294844.0273,
       "ctimeMs": 1548489294844.0273,
       "birthtimeMs": 1548489289309.7234,
-      "atime": "2019-01-28T07:14:55.852Z",
+      "atime": "2019-01-28T07:28:41.426Z",
       "mtime": "2019-01-26T07:54:54.844Z",
       "ctime": "2019-01-26T07:54:54.844Z",
       "birthtime": "2019-01-26T07:54:49.310Z"
@@ -1045,7 +1318,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "7f280bbeea8b406e196097bafed85e89",
+        "contentDigest": "7436408364b9c89bc581d0137206bf0b",
         "type": "Directory",
         "description": "Directory \"src/templates\"",
         "owner": "gatsby-source-filesystem"
@@ -1057,7 +1330,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-01-28T07:12:00.322Z",
-      "accessTime": "2019-01-28T07:14:55.852Z",
+      "accessTime": "2019-01-28T07:28:41.426Z",
       "changeTime": "2019-01-28T07:12:00.322Z",
       "birthTime": "2019-01-28T07:11:51.582Z",
       "root": "/",
@@ -1075,11 +1348,11 @@
       "blksize": 4096,
       "ino": 15891325,
       "blocks": 0,
-      "atimeMs": 1548659695851.564,
+      "atimeMs": 1548660521425.7156,
       "mtimeMs": 1548659520321.6694,
       "ctimeMs": 1548659520321.6694,
       "birthtimeMs": 1548659511581.9094,
-      "atime": "2019-01-28T07:14:55.852Z",
+      "atime": "2019-01-28T07:28:41.426Z",
       "mtime": "2019-01-28T07:12:00.322Z",
       "ctime": "2019-01-28T07:12:00.322Z",
       "birthtime": "2019-01-28T07:11:51.582Z"
@@ -1089,7 +1362,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "0cb6ad4e9fbb3e5019140c4fd9c5fec6",
+        "contentDigest": "74eaaa85a96d8cee18f831f63ee6c112",
         "type": "Directory",
         "description": "Directory \"src/utils\"",
         "owner": "gatsby-source-filesystem"
@@ -1101,7 +1374,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-01-28T06:40:12.697Z",
-      "accessTime": "2019-01-28T07:14:55.852Z",
+      "accessTime": "2019-01-28T07:28:41.426Z",
       "changeTime": "2019-01-28T06:40:12.697Z",
       "birthTime": "2019-01-28T06:39:51.440Z",
       "root": "/",
@@ -1119,104 +1392,14 @@
       "blksize": 4096,
       "ino": 15880579,
       "blocks": 0,
-      "atimeMs": 1548659695851.6953,
+      "atimeMs": 1548660521425.7507,
       "mtimeMs": 1548657612697.1675,
       "ctimeMs": 1548657612697.1675,
       "birthtimeMs": 1548657591440.2336,
-      "atime": "2019-01-28T07:14:55.852Z",
+      "atime": "2019-01-28T07:28:41.426Z",
       "mtime": "2019-01-28T06:40:12.697Z",
       "ctime": "2019-01-28T06:40:12.697Z",
       "birthtime": "2019-01-28T06:39:51.440Z"
-    },
-    "a9163a61-30e3-5e6d-9772-05342127ff83": {
-      "id": "a9163a61-30e3-5e6d-9772-05342127ff83",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "1de90f8c2c481dc871cb4a869607f418",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/templates/blog-post.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/templates/blog-post.js",
-      "relativePath": "templates/blog-post.js",
-      "extension": "js",
-      "size": 509,
-      "prettySize": "509 B",
-      "modifiedTime": "2019-01-28T07:13:30.707Z",
-      "accessTime": "2019-01-28T07:13:30.707Z",
-      "changeTime": "2019-01-28T07:13:30.707Z",
-      "birthTime": "2019-01-28T07:12:00.322Z",
-      "root": "/",
-      "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/templates",
-      "base": "blog-post.js",
-      "ext": ".js",
-      "name": "blog-post",
-      "relativeDirectory": "templates",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 15891330,
-      "blocks": 8,
-      "atimeMs": 1548659610706.5059,
-      "mtimeMs": 1548659610707.1511,
-      "ctimeMs": 1548659610707.1511,
-      "birthtimeMs": 1548659520321.6545,
-      "atime": "2019-01-28T07:13:30.707Z",
-      "mtime": "2019-01-28T07:13:30.707Z",
-      "ctime": "2019-01-28T07:13:30.707Z",
-      "birthtime": "2019-01-28T07:12:00.322Z"
-    },
-    "95f9292f-6c3e-5b41-a51f-ad4f621bd694": {
-      "id": "95f9292f-6c3e-5b41-a51f-ad4f621bd694",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "2d6ad5d068ec3860d91a545453e9af13",
-        "type": "File",
-        "mediaType": "text/css",
-        "description": "File \"src/styles/global.css\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/styles/global.css",
-      "relativePath": "styles/global.css",
-      "extension": "css",
-      "size": 44,
-      "prettySize": "44 B",
-      "modifiedTime": "2019-01-26T07:55:01.388Z",
-      "accessTime": "2019-01-28T07:11:42.694Z",
-      "changeTime": "2019-01-26T07:55:01.388Z",
-      "birthTime": "2019-01-26T07:54:54.844Z",
-      "root": "/",
-      "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/styles",
-      "base": "global.css",
-      "ext": ".css",
-      "name": "global",
-      "relativeDirectory": "styles",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 15769597,
-      "blocks": 8,
-      "atimeMs": 1548659502693.9727,
-      "mtimeMs": 1548489301387.644,
-      "ctimeMs": 1548489301387.644,
-      "birthtimeMs": 1548489294844.014,
-      "atime": "2019-01-28T07:11:42.694Z",
-      "mtime": "2019-01-26T07:55:01.388Z",
-      "ctime": "2019-01-26T07:55:01.388Z",
-      "birthtime": "2019-01-26T07:54:54.844Z"
     },
     "c9a1a636-b35f-53b4-a038-f15000b54f9f": {
       "id": "c9a1a636-b35f-53b4-a038-f15000b54f9f",
@@ -1236,7 +1419,7 @@
       "size": 177,
       "prettySize": "177 B",
       "modifiedTime": "2019-01-26T08:00:04.375Z",
-      "accessTime": "2019-01-28T07:12:05.826Z",
+      "accessTime": "2019-01-28T07:27:52.558Z",
       "changeTime": "2019-01-26T08:00:04.375Z",
       "birthTime": "2019-01-26T07:58:53.215Z",
       "root": "/",
@@ -1254,59 +1437,14 @@
       "blksize": 4096,
       "ino": 15770016,
       "blocks": 8,
-      "atimeMs": 1548659525825.954,
+      "atimeMs": 1548660472557.98,
       "mtimeMs": 1548489604375,
       "ctimeMs": 1548489604375.2039,
       "birthtimeMs": 1548489533214.9583,
-      "atime": "2019-01-28T07:12:05.826Z",
+      "atime": "2019-01-28T07:27:52.558Z",
       "mtime": "2019-01-26T08:00:04.375Z",
       "ctime": "2019-01-26T08:00:04.375Z",
       "birthtime": "2019-01-26T07:58:53.215Z"
-    },
-    "ab947dae-2195-5600-9dd0-8f70a1f1087d": {
-      "id": "ab947dae-2195-5600-9dd0-8f70a1f1087d",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "ccc3d064a8aadf69a91d0ba7bdef552b",
-        "type": "File",
-        "mediaType": "text/css",
-        "description": "File \"src/components/container.module.css\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/components/container.module.css",
-      "relativePath": "components/container.module.css",
-      "extension": "css",
-      "size": 56,
-      "prettySize": "56 B",
-      "modifiedTime": "2019-01-26T08:02:41.138Z",
-      "accessTime": "2019-01-28T07:11:39.276Z",
-      "changeTime": "2019-01-26T08:02:41.138Z",
-      "birthTime": "2019-01-26T07:59:15.670Z",
-      "root": "/",
-      "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/components",
-      "base": "container.module.css",
-      "ext": ".css",
-      "name": "container.module",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 15770030,
-      "blocks": 8,
-      "atimeMs": 1548659499275.5286,
-      "mtimeMs": 1548489761138.208,
-      "ctimeMs": 1548489761138.208,
-      "birthtimeMs": 1548489555670.3123,
-      "atime": "2019-01-28T07:11:39.276Z",
-      "mtime": "2019-01-26T08:02:41.138Z",
-      "ctime": "2019-01-26T08:02:41.138Z",
-      "birthtime": "2019-01-26T07:59:15.670Z"
     },
     "f7d299fe-3d70-5393-b332-f43b64c4f755": {
       "id": "f7d299fe-3d70-5393-b332-f43b64c4f755",
@@ -1326,7 +1464,7 @@
       "size": 79,
       "prettySize": "79 B",
       "modifiedTime": "2019-01-26T07:50:56.040Z",
-      "accessTime": "2019-01-28T07:12:05.826Z",
+      "accessTime": "2019-01-28T07:27:52.558Z",
       "changeTime": "2019-01-26T07:50:56.040Z",
       "birthTime": "2019-01-26T07:50:09.976Z",
       "root": "/",
@@ -1344,11 +1482,11 @@
       "blksize": 4096,
       "ino": 15769235,
       "blocks": 8,
-      "atimeMs": 1548659525825.9954,
+      "atimeMs": 1548660472558.008,
       "mtimeMs": 1548489056039.5679,
       "ctimeMs": 1548489056039.5679,
       "birthtimeMs": 1548489009975.8567,
-      "atime": "2019-01-28T07:12:05.826Z",
+      "atime": "2019-01-28T07:27:52.558Z",
       "mtime": "2019-01-26T07:50:56.040Z",
       "ctime": "2019-01-26T07:50:56.040Z",
       "birthtime": "2019-01-26T07:50:09.976Z"
@@ -1371,7 +1509,7 @@
       "size": 990,
       "prettySize": "990 B",
       "modifiedTime": "2019-01-28T06:47:49.559Z",
-      "accessTime": "2019-01-28T07:12:13.660Z",
+      "accessTime": "2019-01-28T07:27:52.487Z",
       "changeTime": "2019-01-28T06:47:49.559Z",
       "birthTime": "2019-01-26T08:23:14.167Z",
       "root": "/",
@@ -1389,11 +1527,11 @@
       "blksize": 4096,
       "ino": 15810994,
       "blocks": 8,
-      "atimeMs": 1548659533659.579,
+      "atimeMs": 1548660472487.2012,
       "mtimeMs": 1548658069559.0813,
       "ctimeMs": 1548658069559.0813,
       "birthtimeMs": 1548490994167.4749,
-      "atime": "2019-01-28T07:12:13.660Z",
+      "atime": "2019-01-28T07:27:52.487Z",
       "mtime": "2019-01-28T06:47:49.559Z",
       "ctime": "2019-01-28T06:47:49.559Z",
       "birthtime": "2019-01-26T08:23:14.167Z"
@@ -1416,7 +1554,7 @@
       "size": 464,
       "prettySize": "464 B",
       "modifiedTime": "2019-01-28T06:43:27.405Z",
-      "accessTime": "2019-01-28T07:12:05.826Z",
+      "accessTime": "2019-01-28T07:27:52.487Z",
       "changeTime": "2019-01-28T06:43:27.405Z",
       "birthTime": "2019-01-26T07:49:32.788Z",
       "root": "/",
@@ -1434,59 +1572,14 @@
       "blksize": 4096,
       "ino": 15769169,
       "blocks": 8,
-      "atimeMs": 1548659525826.1711,
+      "atimeMs": 1548660472486.9612,
       "mtimeMs": 1548657807405.1826,
       "ctimeMs": 1548657807405.1826,
       "birthtimeMs": 1548488972787.993,
-      "atime": "2019-01-28T07:12:05.826Z",
+      "atime": "2019-01-28T07:27:52.487Z",
       "mtime": "2019-01-28T06:43:27.405Z",
       "ctime": "2019-01-28T06:43:27.405Z",
       "birthtime": "2019-01-26T07:49:32.788Z"
-    },
-    "2a1a8555-add8-5a85-a61b-738469ed73c2": {
-      "id": "2a1a8555-add8-5a85-a61b-738469ed73c2",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "988d2b72fafe19a3c0a32f3c3ee6502b",
-        "type": "File",
-        "mediaType": "text/css",
-        "description": "File \"src/pages/about.module.css\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages/about.module.css",
-      "relativePath": "pages/about.module.css",
-      "extension": "css",
-      "size": 340,
-      "prettySize": "340 B",
-      "modifiedTime": "2019-01-26T08:03:57.716Z",
-      "accessTime": "2019-01-28T07:11:39.124Z",
-      "changeTime": "2019-01-26T08:03:57.716Z",
-      "birthTime": "2019-01-26T08:03:49.991Z",
-      "root": "/",
-      "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages",
-      "base": "about.module.css",
-      "ext": ".css",
-      "name": "about.module",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 15770503,
-      "blocks": 8,
-      "atimeMs": 1548659499123.96,
-      "mtimeMs": 1548489837715.855,
-      "ctimeMs": 1548489837715.855,
-      "birthtimeMs": 1548489829991.3323,
-      "atime": "2019-01-28T07:11:39.124Z",
-      "mtime": "2019-01-26T08:03:57.716Z",
-      "ctime": "2019-01-26T08:03:57.716Z",
-      "birthtime": "2019-01-26T08:03:49.991Z"
     },
     "e94a32ed-6583-5fc4-98a9-7d12d8fb3b9b": {
       "id": "e94a32ed-6583-5fc4-98a9-7d12d8fb3b9b",
@@ -1506,7 +1599,7 @@
       "size": 258,
       "prettySize": "258 B",
       "modifiedTime": "2019-01-26T07:53:38.509Z",
-      "accessTime": "2019-01-28T07:12:05.826Z",
+      "accessTime": "2019-01-28T07:27:52.487Z",
       "changeTime": "2019-01-26T07:53:38.509Z",
       "birthTime": "2019-01-26T07:53:33.453Z",
       "root": "/",
@@ -1524,21 +1617,111 @@
       "blksize": 4096,
       "ino": 15769481,
       "blocks": 8,
-      "atimeMs": 1548659525826.21,
+      "atimeMs": 1548660472486.9692,
       "mtimeMs": 1548489218509.1406,
       "ctimeMs": 1548489218509.1406,
       "birthtimeMs": 1548489213452.6448,
-      "atime": "2019-01-28T07:12:05.826Z",
+      "atime": "2019-01-28T07:27:52.487Z",
       "mtime": "2019-01-26T07:53:38.509Z",
       "ctime": "2019-01-26T07:53:38.509Z",
       "birthtime": "2019-01-26T07:53:33.453Z"
+    },
+    "2a1a8555-add8-5a85-a61b-738469ed73c2": {
+      "id": "2a1a8555-add8-5a85-a61b-738469ed73c2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "988d2b72fafe19a3c0a32f3c3ee6502b",
+        "type": "File",
+        "mediaType": "text/css",
+        "description": "File \"src/pages/about.module.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages/about.module.css",
+      "relativePath": "pages/about.module.css",
+      "extension": "css",
+      "size": 340,
+      "prettySize": "340 B",
+      "modifiedTime": "2019-01-26T08:03:57.716Z",
+      "accessTime": "2019-01-28T07:27:52.284Z",
+      "changeTime": "2019-01-26T08:03:57.716Z",
+      "birthTime": "2019-01-26T08:03:49.991Z",
+      "root": "/",
+      "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages",
+      "base": "about.module.css",
+      "ext": ".css",
+      "name": "about.module",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15770503,
+      "blocks": 8,
+      "atimeMs": 1548660472283.6396,
+      "mtimeMs": 1548489837715.855,
+      "ctimeMs": 1548489837715.855,
+      "birthtimeMs": 1548489829991.3323,
+      "atime": "2019-01-28T07:27:52.284Z",
+      "mtime": "2019-01-26T08:03:57.716Z",
+      "ctime": "2019-01-26T08:03:57.716Z",
+      "birthtime": "2019-01-26T08:03:49.991Z"
+    },
+    "ab947dae-2195-5600-9dd0-8f70a1f1087d": {
+      "id": "ab947dae-2195-5600-9dd0-8f70a1f1087d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ccc3d064a8aadf69a91d0ba7bdef552b",
+        "type": "File",
+        "mediaType": "text/css",
+        "description": "File \"src/components/container.module.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/components/container.module.css",
+      "relativePath": "components/container.module.css",
+      "extension": "css",
+      "size": 56,
+      "prettySize": "56 B",
+      "modifiedTime": "2019-01-26T08:02:41.138Z",
+      "accessTime": "2019-01-28T07:27:52.413Z",
+      "changeTime": "2019-01-26T08:02:41.138Z",
+      "birthTime": "2019-01-26T07:59:15.670Z",
+      "root": "/",
+      "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/components",
+      "base": "container.module.css",
+      "ext": ".css",
+      "name": "container.module",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15770030,
+      "blocks": 8,
+      "atimeMs": 1548660472413.1045,
+      "mtimeMs": 1548489761138.208,
+      "ctimeMs": 1548489761138.208,
+      "birthtimeMs": 1548489555670.3123,
+      "atime": "2019-01-28T07:27:52.413Z",
+      "mtime": "2019-01-26T08:02:41.138Z",
+      "ctime": "2019-01-26T08:02:41.138Z",
+      "birthtime": "2019-01-26T07:59:15.670Z"
     },
     "bbfbff92-36cf-596b-8b3a-73399d800087": {
       "id": "bbfbff92-36cf-596b-8b3a-73399d800087",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e44c28eee208dc8a907796b8aced88e2",
+        "contentDigest": "4ba0a18ff04a688c413430a617b1acee",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/index.js\"",
@@ -1548,11 +1731,11 @@
       "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages/index.js",
       "relativePath": "pages/index.js",
       "extension": "js",
-      "size": 1633,
-      "prettySize": "1.63 kB",
-      "modifiedTime": "2019-01-28T07:14:38.993Z",
-      "accessTime": "2019-01-28T07:14:38.991Z",
-      "changeTime": "2019-01-28T07:14:38.993Z",
+      "size": 1831,
+      "prettySize": "1.83 kB",
+      "modifiedTime": "2019-01-28T07:27:39.262Z",
+      "accessTime": "2019-01-28T07:27:52.487Z",
+      "changeTime": "2019-01-28T07:27:39.262Z",
       "birthTime": "2019-01-26T07:40:09.676Z",
       "root": "/",
       "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages",
@@ -1569,13 +1752,13 @@
       "blksize": 4096,
       "ino": 15721301,
       "blocks": 8,
-      "atimeMs": 1548659678991.3464,
-      "mtimeMs": 1548659678992.644,
-      "ctimeMs": 1548659678992.644,
+      "atimeMs": 1548660472487.0393,
+      "mtimeMs": 1548660459262.4268,
+      "ctimeMs": 1548660459262.4268,
       "birthtimeMs": 1548488409675.728,
-      "atime": "2019-01-28T07:14:38.991Z",
-      "mtime": "2019-01-28T07:14:38.993Z",
-      "ctime": "2019-01-28T07:14:38.993Z",
+      "atime": "2019-01-28T07:27:52.487Z",
+      "mtime": "2019-01-28T07:27:39.262Z",
+      "ctime": "2019-01-28T07:27:39.262Z",
       "birthtime": "2019-01-26T07:40:09.676Z"
     },
     "c8d4f0ba-b6c1-5e84-8ad9-89e956139b9c": {
@@ -1596,7 +1779,7 @@
       "size": 1038,
       "prettySize": "1.04 kB",
       "modifiedTime": "2019-01-28T07:00:22.398Z",
-      "accessTime": "2019-01-28T07:12:05.826Z",
+      "accessTime": "2019-01-28T07:27:52.487Z",
       "changeTime": "2019-01-28T07:00:22.398Z",
       "birthTime": "2019-01-28T06:59:11.661Z",
       "root": "/",
@@ -1614,61 +1797,14 @@
       "blksize": 4096,
       "ino": 15887821,
       "blocks": 8,
-      "atimeMs": 1548659525826.329,
+      "atimeMs": 1548660472487.081,
       "mtimeMs": 1548658822397.556,
       "ctimeMs": 1548658822397.556,
       "birthtimeMs": 1548658751661.1401,
-      "atime": "2019-01-28T07:12:05.826Z",
+      "atime": "2019-01-28T07:27:52.487Z",
       "mtime": "2019-01-28T07:00:22.398Z",
       "ctime": "2019-01-28T07:00:22.398Z",
       "birthtime": "2019-01-28T06:59:11.661Z"
-    },
-    "142e044a-583e-5230-9f1a-fb5dd729c143": {
-      "id": "142e044a-583e-5230-9f1a-fb5dd729c143",
-      "children": [
-        "d69b45c2-1edd-5529-882a-65fc9714bd61"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "5244bb50fa575bd508ea05bff11522f7",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/pandas-and-bananas.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages/pandas-and-bananas.md",
-      "relativePath": "pages/pandas-and-bananas.md",
-      "extension": "md",
-      "size": 291,
-      "prettySize": "291 B",
-      "modifiedTime": "2019-01-28T07:04:51.612Z",
-      "accessTime": "2019-01-28T07:11:39.124Z",
-      "changeTime": "2019-01-28T07:04:51.612Z",
-      "birthTime": "2019-01-28T07:04:43.975Z",
-      "root": "/",
-      "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages",
-      "base": "pandas-and-bananas.md",
-      "ext": ".md",
-      "name": "pandas-and-bananas",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 15890280,
-      "blocks": 8,
-      "atimeMs": 1548659499124.1372,
-      "mtimeMs": 1548659091611.7659,
-      "ctimeMs": 1548659091611.7659,
-      "birthtimeMs": 1548659083974.5544,
-      "atime": "2019-01-28T07:11:39.124Z",
-      "mtime": "2019-01-28T07:04:51.612Z",
-      "ctime": "2019-01-28T07:04:51.612Z",
-      "birthtime": "2019-01-28T07:04:43.975Z"
     },
     "b085b629-6413-57c2-9234-36fed6ef796a": {
       "id": "b085b629-6413-57c2-9234-36fed6ef796a",
@@ -1690,7 +1826,7 @@
       "size": 255,
       "prettySize": "255 B",
       "modifiedTime": "2019-01-28T07:02:59.501Z",
-      "accessTime": "2019-01-28T07:11:39.124Z",
+      "accessTime": "2019-01-28T07:27:52.284Z",
       "changeTime": "2019-01-28T07:02:59.501Z",
       "birthTime": "2019-01-28T07:02:52.843Z",
       "root": "/",
@@ -1708,14 +1844,106 @@
       "blksize": 4096,
       "ino": 15888237,
       "blocks": 8,
-      "atimeMs": 1548659499124.2322,
+      "atimeMs": 1548660472283.9094,
       "mtimeMs": 1548658979501.0059,
       "ctimeMs": 1548658979501.0059,
       "birthtimeMs": 1548658972842.9546,
-      "atime": "2019-01-28T07:11:39.124Z",
+      "atime": "2019-01-28T07:27:52.284Z",
       "mtime": "2019-01-28T07:02:59.501Z",
       "ctime": "2019-01-28T07:02:59.501Z",
       "birthtime": "2019-01-28T07:02:52.843Z"
+    },
+    "142e044a-583e-5230-9f1a-fb5dd729c143": {
+      "id": "142e044a-583e-5230-9f1a-fb5dd729c143",
+      "children": [
+        "d69b45c2-1edd-5529-882a-65fc9714bd61"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5244bb50fa575bd508ea05bff11522f7",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/pandas-and-bananas.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages/pandas-and-bananas.md",
+      "relativePath": "pages/pandas-and-bananas.md",
+      "extension": "md",
+      "size": 291,
+      "prettySize": "291 B",
+      "modifiedTime": "2019-01-28T07:04:51.612Z",
+      "accessTime": "2019-01-28T07:27:52.284Z",
+      "changeTime": "2019-01-28T07:04:51.612Z",
+      "birthTime": "2019-01-28T07:04:43.975Z",
+      "root": "/",
+      "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages",
+      "base": "pandas-and-bananas.md",
+      "ext": ".md",
+      "name": "pandas-and-bananas",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15890280,
+      "blocks": 8,
+      "atimeMs": 1548660472283.9043,
+      "mtimeMs": 1548659091611.7659,
+      "ctimeMs": 1548659091611.7659,
+      "birthtimeMs": 1548659083974.5544,
+      "atime": "2019-01-28T07:27:52.284Z",
+      "mtime": "2019-01-28T07:04:51.612Z",
+      "ctime": "2019-01-28T07:04:51.612Z",
+      "birthtime": "2019-01-28T07:04:43.975Z"
+    },
+    "a9163a61-30e3-5e6d-9772-05342127ff83": {
+      "id": "a9163a61-30e3-5e6d-9772-05342127ff83",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1de90f8c2c481dc871cb4a869607f418",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/templates/blog-post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/templates/blog-post.js",
+      "relativePath": "templates/blog-post.js",
+      "extension": "js",
+      "size": 509,
+      "prettySize": "509 B",
+      "modifiedTime": "2019-01-28T07:13:30.707Z",
+      "accessTime": "2019-01-28T07:27:52.487Z",
+      "changeTime": "2019-01-28T07:13:30.707Z",
+      "birthTime": "2019-01-28T07:12:00.322Z",
+      "root": "/",
+      "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/templates",
+      "base": "blog-post.js",
+      "ext": ".js",
+      "name": "blog-post",
+      "relativeDirectory": "templates",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15891330,
+      "blocks": 8,
+      "atimeMs": 1548660472486.8843,
+      "mtimeMs": 1548659610707.1511,
+      "ctimeMs": 1548659610707.1511,
+      "birthtimeMs": 1548659520321.6545,
+      "atime": "2019-01-28T07:27:52.487Z",
+      "mtime": "2019-01-28T07:13:30.707Z",
+      "ctime": "2019-01-28T07:13:30.707Z",
+      "birthtime": "2019-01-28T07:12:00.322Z"
     },
     "e1f04b38-5162-5d45-a093-03d568e2ee35": {
       "id": "e1f04b38-5162-5d45-a093-03d568e2ee35",
@@ -1735,7 +1963,7 @@
       "size": 204,
       "prettySize": "204 B",
       "modifiedTime": "2019-01-28T06:40:17.658Z",
-      "accessTime": "2019-01-28T07:12:13.660Z",
+      "accessTime": "2019-01-28T07:27:52.558Z",
       "changeTime": "2019-01-28T06:40:17.658Z",
       "birthTime": "2019-01-28T06:40:06.048Z",
       "root": "/",
@@ -1753,38 +1981,59 @@
       "blksize": 4096,
       "ino": 15880591,
       "blocks": 8,
-      "atimeMs": 1548659533659.5872,
+      "atimeMs": 1548660472558.216,
       "mtimeMs": 1548657617657.8857,
       "ctimeMs": 1548657617657.8857,
       "birthtimeMs": 1548657606048.3577,
-      "atime": "2019-01-28T07:12:13.660Z",
+      "atime": "2019-01-28T07:27:52.558Z",
       "mtime": "2019-01-28T06:40:17.658Z",
       "ctime": "2019-01-28T06:40:17.658Z",
       "birthtime": "2019-01-28T06:40:06.048Z"
     },
-    "d69b45c2-1edd-5529-882a-65fc9714bd61": {
-      "id": "d69b45c2-1edd-5529-882a-65fc9714bd61",
+    "95f9292f-6c3e-5b41-a51f-ad4f621bd694": {
+      "id": "95f9292f-6c3e-5b41-a51f-ad4f621bd694",
       "children": [],
-      "parent": "142e044a-583e-5230-9f1a-fb5dd729c143",
+      "parent": null,
       "internal": {
-        "content": "\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "2e8b4ce63dea225a77be21044634b2a8",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
+        "contentDigest": "2d6ad5d068ec3860d91a545453e9af13",
+        "type": "File",
+        "mediaType": "text/css",
+        "description": "File \"src/styles/global.css\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "Pandas and Bananas",
-        "date": "2017-08-21"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>\n",
-      "fileAbsolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages/pandas-and-bananas.md",
-      "fields": {
-        "slug": "/pandas-and-bananas/"
-      }
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/styles/global.css",
+      "relativePath": "styles/global.css",
+      "extension": "css",
+      "size": 44,
+      "prettySize": "44 B",
+      "modifiedTime": "2019-01-26T07:55:01.388Z",
+      "accessTime": "2019-01-28T07:27:52.414Z",
+      "changeTime": "2019-01-26T07:55:01.388Z",
+      "birthTime": "2019-01-26T07:54:54.844Z",
+      "root": "/",
+      "dir": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/styles",
+      "base": "global.css",
+      "ext": ".css",
+      "name": "global",
+      "relativeDirectory": "styles",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15769597,
+      "blocks": 8,
+      "atimeMs": 1548660472413.6194,
+      "mtimeMs": 1548489301387.644,
+      "ctimeMs": 1548489301387.644,
+      "birthtimeMs": 1548489294844.014,
+      "atime": "2019-01-28T07:27:52.414Z",
+      "mtime": "2019-01-26T07:55:01.388Z",
+      "ctime": "2019-01-26T07:55:01.388Z",
+      "birthtime": "2019-01-26T07:54:54.844Z"
     },
     "dd2bca73-9986-589c-881e-79d507b5dce8": {
       "id": "dd2bca73-9986-589c-881e-79d507b5dce8",
@@ -1810,25 +2059,47 @@
         "slug": "/sweet-pandas-eating-sweets/"
       }
     },
-    "SitePage /pandas-and-bananas/": {
-      "jsonName": "pandas-and-bananas-c27",
-      "internalComponentName": "ComponentPandasAndBananas",
-      "path": "/pandas-and-bananas/",
-      "component": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/pandas-and-bananas/"
+    "d69b45c2-1edd-5529-882a-65fc9714bd61": {
+      "id": "d69b45c2-1edd-5529-882a-65fc9714bd61",
+      "children": [],
+      "parent": "142e044a-583e-5230-9f1a-fb5dd729c143",
+      "internal": {
+        "content": "\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2e8b4ce63dea225a77be21044634b2a8",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
       },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/templates/blog-post.js",
-      "id": "SitePage /pandas-and-bananas/",
+      "frontmatter": {
+        "title": "Pandas and Bananas",
+        "date": "2017-08-21"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>\n",
+      "fileAbsolutePath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages/pandas-and-bananas.md",
+      "fields": {
+        "slug": "/pandas-and-bananas/"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "componentPath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1cb0e93d9ebb41d29edc2b020dae8fab",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "contentDigest": "a9397bafdea73dae83926bba1f14141a",
+        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
         "owner": "internal-data-bridge"
       }
     },
@@ -1850,6 +2121,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "80671af2d3ae11f02617c88728c3dc0c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /pandas-and-bananas/": {
+      "jsonName": "pandas-and-bananas-c27",
+      "internalComponentName": "ComponentPandasAndBananas",
+      "path": "/pandas-and-bananas/",
+      "component": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/pandas-and-bananas/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/templates/blog-post.js",
+      "id": "SitePage /pandas-and-bananas/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1cb0e93d9ebb41d29edc2b020dae8fab",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -1937,7 +2230,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "2a452dfa7557b2c5c5fcc47f257896b0"
+    "PLUGINS_HASH": "c6943cbb664735d0a61b71650e081405"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1945,11 +2238,11 @@
         "/about/",
         "sq--src-components-layout-js"
       ],
-      "d69b45c2-1edd-5529-882a-65fc9714bd61": [
-        "/pandas-and-bananas/"
-      ],
       "dd2bca73-9986-589c-881e-79d507b5dce8": [
         "/sweet-pandas-eating-sweets/"
+      ],
+      "d69b45c2-1edd-5529-882a-65fc9714bd61": [
+        "/pandas-and-bananas/"
       ]
     },
     "connections": {
@@ -1969,18 +2262,15 @@
     "about-f34": "224/path---about-f-34-4c2-2lhwVT6yxzO9v82D9ApCJuiS1js",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-layout-js": 3892401927,
-    "my-files-317": "547/path---my-files-317-4c7-0Yr1RYA4iGx5Xza5FOL2TM2Xj78",
+    "my-files-317": "145/path---my-files-317-4c7-etvnJd8OgEq6enhfcCWOshVyxhY",
     "pandas-and-bananas-c27": "74/path---pandas-and-bananas-c-27-086-6z2Obr7WeHZs1zz24wrYOTNgc",
-    "sweet-pandas-eating-sweets-34f": "158/path---sweet-pandas-eating-sweets-34-f-7c4-lqavJYMa6rMabIGKUfDmeA9DNc8"
+    "sweet-pandas-eating-sweets-34f": "158/path---sweet-pandas-eating-sweets-34-f-7c4-lqavJYMa6rMabIGKUfDmeA9DNc8",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/templates/blog-post.js": {
       "query": "query usersOscarocegueraDocumentsReposExamplesGatsbyTutorialSrcTemplatesBlogPostJs610335917(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
       "componentPath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/templates/blog-post.js"
-    },
-    "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/.cache/dev-404-page.js"
     },
     "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages/about.js": {
       "query": "query usersOscarocegueraDocumentsReposExamplesGatsbyTutorialSrcPagesAboutJs1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
@@ -1997,6 +2287,10 @@
     "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages/my-files.js": {
       "query": "query usersOscarocegueraDocumentsReposExamplesGatsbyTutorialSrcPagesMyFilesJs3953592347 {\n  allFile {\n    edges {\n      node {\n        relativePath\n        prettySize\n        extension\n        birthTime(fromNow: true)\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/src/pages/my-files.js"
+    },
+    "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {

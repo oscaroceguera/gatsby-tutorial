@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"GatsbyJS","short_name":"GatsbyJS","start_url":"/","background_color":"#6b37bf","theme_color":"#6b37bf","display":"standalone"},
+    },{
+      plugin: require('/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]

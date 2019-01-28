@@ -23,5 +23,15 @@
         "componentChunkName": "component---src-pages-my-files-js",
         "jsonName": "my-files-317",
         "path": "/my-files/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "pandas-and-bananas-c27",
+        "path": "/pandas-and-bananas/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "sweet-pandas-eating-sweets-34f",
+        "path": "/sweet-pandas-eating-sweets/"
     }
 ]

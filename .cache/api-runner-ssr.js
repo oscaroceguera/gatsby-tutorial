@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/Users/oscaroceguera/Documents/Repos/Examples/gatsby-tutorial/node_modules/gatsby-plugin-typography/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
